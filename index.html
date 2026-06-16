@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ReadFlow — Privacy Policy</title>
+    <meta name="robots" content="noindex" />
+    <style>
+      :root {
+        --bg0: #ffffff;
+        --bg1: #f1f5f9;
+        --ink: #0f172a;
+        --muted: rgba(15, 23, 42, 0.62);
+        --border: rgba(148, 163, 184, 0.35);
+        --blue: #2563eb;
+        --teal: #10b981;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        color: var(--ink);
+        background: radial-gradient(
+            1200px circle at 0% 0%,
+            rgba(37, 99, 235, 0.12),
+            transparent 55%
+          ),
+          radial-gradient(
+            900px circle at 100% 0%,
+            rgba(16, 185, 129, 0.1),
+            transparent 50%
+          ),
+          linear-gradient(165deg, var(--bg0) 0%, var(--bg1) 100%);
+      }
+
+      a {
+        color: var(--blue);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      .wrap {
+        max-width: 920px;
+        margin: 0 auto;
+        padding: 28px 18px 80px;
+      }
+
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        margin-bottom: 16px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        border: 1px solid var(--border);
+        background: linear-gradient(135deg, var(--blue), var(--teal));
+        display: grid;
+        place-items: center;
+      }
+      .icon img {
+        width: 26px;
+        height: 26px;
+        border-radius: 8px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 20px;
+        letter-spacing: -0.3px;
+      }
+
+      .card {
+        border-radius: 16px;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.78);
+        padding: 18px;
+        line-height: 1.55;
+      }
+
+      .muted {
+        color: var(--muted);
+        font-size: 13px;
+        margin-top: 6px;
+      }
+
+      h2 {
+        font-size: 15px;
+        margin: 18px 0 8px;
+      }
+
+      ul {
+        margin: 8px 0 0 18px;
+      }
+
+      code {
+        padding: 2px 6px;
+        border-radius: 8px;
+        border: 1px solid rgba(148, 163, 184, 0.35);
+        background: rgba(248, 250, 252, 0.75);
+        font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+        font-size: 0.95em;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <div class="brand">
+          <div class="icon" aria-hidden="true">
+            <img src="../../assets/readflow-icon-128.png" alt="" />
+          </div>
+          <div>
+            <h1>ReadFlow Privacy Policy</h1>
+            <div class="muted">Last updated: Jun 16, 2026</div>
+          </div>
+        </div>
+        <a href="../index.html">Back to promo</a>
+      </div>
+
+      <div class="card">
+        <p>
+          ReadFlow is a browser extension that helps you track long-form reading
+          progress and resume where you left off.
+        </p>
+
+        <h2>What data ReadFlow stores</h2>
+        <p>
+          ReadFlow stores the following information for pages it identifies as
+          long-form reading (for example: articles, blogs, documentation):
+        </p>
+        <ul>
+          <li>Page URL (canonical URL when available)</li>
+          <li>Page title</li>
+          <li>Scroll progress and last scroll position</li>
+          <li>Active reading time (only while the tab is visible)</li>
+          <li>
+            Engagement signals used to compute confidence (mouse movement and
+            scroll speed)
+          </li>
+          <li>Reading status (Unread / In Progress / Read)</li>
+          <li>Category you assign (Work / Study / Research / Personal)</li>
+          <li>Last visited date/time</li>
+        </ul>
+
+        <h2>Where your data lives</h2>
+        <p>
+          All data is saved locally on your device using Chrome’s
+          <code>chrome.storage.local</code>. ReadFlow does not include any
+          accounts and does not sync your reading history to any server.
+        </p>
+
+        <h2>Data sharing</h2>
+        <p>
+          ReadFlow does not sell, rent, transfer, or share your data with third
+          parties.
+        </p>
+
+        <h2>Remote code</h2>
+        <p>
+          ReadFlow does not load or execute remote code. All JavaScript required
+          for the extension is bundled inside the extension package.
+        </p>
+
+        <h2>Contact</h2>
+        <p class="muted">
+          Add your support email here before publishing (example:
+          <code>support@yourdomain.com</code>).
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+
